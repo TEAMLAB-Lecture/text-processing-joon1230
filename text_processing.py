@@ -36,8 +36,7 @@ def normalize(input_string):
     normalized_string = ""
     for word in input_string.split():
         normalized_string += word.lower() + " "
-    print(normalized_string[:-1])
-    return normalized_string
+    return normalized_string[:-1]
 
 
 def no_vowels(input_string):
